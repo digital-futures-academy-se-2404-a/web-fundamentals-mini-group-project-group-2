@@ -83,10 +83,10 @@ main {
 /* TEXT INPUTS */
 
 .text-input {
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-radius: 3px;
   border: 1px solid gray;
-  padding: 6px;
+  padding: 15px 10px;
 }
 
 #name-inputs {
@@ -95,13 +95,17 @@ main {
 }
 
 #name-inputs > input {
-  width: 40%;
+  width: 46%;
 }
 
 #lastName {
   position: relative;
   float: right;
-  right: 0.5rem;
+  right: 0.05rem;
+}
+
+#password {
+  width: 100%;
 }
 
 form > .text-input {
@@ -122,6 +126,11 @@ form > .text-input {
   width: 80%;
   font-size: 0.9rem;
   color: rgb(160, 161, 162);
+}
+
+
+.radio-label {
+  font-weight: bold;
 }
 
 #sign-up-button {
