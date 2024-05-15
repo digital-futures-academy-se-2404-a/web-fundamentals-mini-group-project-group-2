@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(233, 235, 238, 1);
+  /* height: 100vh; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgba(60, 89, 151, 1);
+  padding: 1rem 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: start;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+form input[type="email"] {
+  width: 25%;
+}
+
+form input[type="password"] {
+  width: 35%;
+}
+form input[type="submit"] {
+  cursor: pointer;
+}
+
+header form input {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border-style: none;
+  font-size: 0.6rem;
+}
+
+header form {
+  justify-self: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: start;
+  padding: 0 10%;
+  gap: 10px;
+}
+
+.people-network p {
+  font-weight: 800;
+  font-size: 1.2 rem;
+  margin-bottom: 0.8rem;
+}
+
+.people-network img {
+  width: 100%;
+}
+#sign-up-container {
+  width: 100%;
+}
+
+#sign-up-container * {
+  margin-bottom: 0.7rem;
+}
+
+/* FORM HEADERS */
+
+#container-header {
+  margin-bottom: 0.7rem;
+}
+
+#container-subheader {
+  font-weight: 200;
+}
+
+/* TEXT INPUTS */
+
+.text-input {
+  font-size: 0.8rem;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 6px;
+}
+
+#name-inputs {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#name-inputs > input {
+  width: 40%;
+}
+
+#lastName {
+  position: relative;
+  float: right;
+  right: 0.5rem;
+}
+
+form > .text-input {
+  width: 100%;
+}
+
+/* OTHER INPUTS */
+#birthday-inputs {
+  margin-bottom: 0;
+}
+
+#birthday-inputs label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+#small-print {
+  width: 80%;
+  font-size: 0.9rem;
+  color: rgb(160, 161, 162);
+}
+
+#sign-up-button {
+  padding: 10px 60px;
+  font-size: large;
+  font-weight: bold;
+  background-image: linear-gradient(rgb(102, 174, 85), rgb(88, 137, 67));
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-shadow: 1px 1px #000000;
+}
