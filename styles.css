@@ -11,6 +11,7 @@ body {
 header {
   background-color: rgba(60, 89, 151, 1);
   padding: 1rem 10%;
+  padding-right: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: start;
@@ -86,7 +87,7 @@ main {
   font-size: 1rem;
   border-radius: 3px;
   border: 1px solid gray;
-  padding: 15px 10px;
+  padding: 10px 10px;
 }
 
 #name-inputs {
@@ -95,7 +96,7 @@ main {
 }
 
 #name-inputs > input {
-  width: 46%;
+  width: 38%;
 }
 
 #lastName {
